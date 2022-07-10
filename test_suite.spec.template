@@ -1,0 +1,9 @@
+import { greet } from '../../src/greeter'
+
+describe('suite {{suiteCount}}', () => {
+    {{#each testNames}}
+    it('{{this}}', () => {
+        expect(greet()).toStrictEqual('Hello World!')
+    })
+    {{/each}}
+})
