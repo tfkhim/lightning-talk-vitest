@@ -9,6 +9,7 @@
     "test:watch": "vitest watch"
   },
   "devDependencies": {
+    "@vitest/ui": "0.18.0",
     "jest-extended": "3.0.0",
     "vitest": "0.18.0"
   }
