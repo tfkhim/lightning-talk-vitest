@@ -5,5 +5,8 @@ module.exports = {
     // files. Normally you do not need this because the
     // Jest configuration is located in the project root.
     roots: ['.', '../src'],
+    transform: {
+        '^.+\\.tsx?$': 'esbuild-jest'
+    },
     setupFilesAfterEnv: ['jest-extended/all']
 }
