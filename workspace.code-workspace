@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "vitest"
+		},
+		{
+			"path": "jest"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
