@@ -1,7 +1,11 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
-    "types": ["vitest/globals", "jest-extended"]
+    "types": [
+      "vitest/globals",      // Avoiding imports of describe, it and expect
+      "jest-extended",       // Typing for extra matchers
+      "vitest/importMeta",   // Tell TypeScript about import.meta.vitest
+    ]
   },
   "include": [".", "../src"]
 }
