@@ -1,6 +1,6 @@
-import { greet } from "../src/greeter"
+import { greet } from "."
 
-vi.mock('../src/greeter')
+vi.mock('./index')
 
 describe('Showcase', () => {
     afterEach(() => {
